@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <style>
+        *{
+            margin: 0;
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .navbar{
+            background-color: green;
+            padding: 20px;
+            text-align: center;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: white;
+            padding: 50px;
+        }
+        .header h1{
+            color: green;
+            margin-top: 10px;
+            font-size: 40px;
+        }
+        .feature{
+            position: relative;
+            margin-top: 20px;
+            width: 100%;
+            height: 250px;
+
+            backdrop-filter: blur(3px);
+
+            background-image: url('https://cdn.firstcry.com/education/2022/11/08143105/Green-Vegetables-Names-in-English-for-Kids.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+            text-align: center;
+
+            border: 2px solid black;
+        }
+        .feature h1{
+            margin-top: 5px;
+            font-size: 45px;
+            color: red;
+        }
+        .feature h3{
+            margin-top:80px;
+            font-size: 25px;
+            color: rgb(60, 255, 0);
+        }
+        .feature h4{
+            font-size: 20px;
+            color: chocolate;
+        }
+        .second{
+            position: relative;
+            width: 100%;
+            height: 250px;
+
+            backdrop-filter: blur(3px);
+
+            background-image: url('https://i.ytimg.com/vi/m4nOrlKtDm8/maxresdefault.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+            text-align: center;
+
+            border: 2px solid black;
+        }
+        .second h1{
+            margin-top: 5px;
+            font-size: 45px;
+            color: rgb(0, 217, 255);
+        }
+        .second h3{
+            margin-top:80px;
+            font-size: 25px;
+            color: rgb(60, 255, 0);
+        }
+        .second h4{
+            font-size: 20px;
+            color: rgb(247, 255, 1);
+        }
+        #view-items{
+            text-decoration: none;
+            color: white;
+
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/FinalProject/home.html">Home</a>
+        <a href="/FinalProject/products.html">View Products</a>
+        <a href="/FinalProject/contact.html">Contact</a>
+    </div>
+    <div class="header">
+        <h1>Welcome to our grocery store!</h1>
+    </div>
+    <div class="feature">
+        <h1><u>AMAZING DEAL!</u></h1>
+        <h3>Get your green vegetables for 50% off!</h3>
+        <h4><u>12 hours remaining...</u></h4>
+        <a href="#" id="view-items">View them</a>
+    </div>
+    <div class="second">
+        <h1><u>The BEST Fruits</u></h1>
+        <h3>We offer a wide range of fresh apples from all around the world</h3>
+        <h4><u>Limited on stock!</u></h4>
+        <a href="/FinalProject/fruits.html" id="view-items">View them</a>
+    </div>
+</body>
+</html>
